@@ -1,0 +1,6 @@
+
+## Initializare proiect de pe locat
+git init
+
+## Descare de pe server -> inlocuire URL
+git clone https://github.com/username/projectname
