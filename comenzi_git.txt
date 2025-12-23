@@ -1,6 +1,28 @@
+### Setari globale - 1 data per calculator/cont
+
+
+# Citirea emailului aferent contului
+git config user.email   
+
+## Schimbarea emailului aferent contului
+git config user.email "noul@email.com" 
+
+# Citirea emailului LA NIVEL GLOBAL aferent contului
+git config --global user.email   
+
+## Schimbarea emailului LA NIVEL GLOBAL aferent contului
+git config --global user.email  "noul@email.com" 
+
+## Schimbarea numele aferent contului 
+git config --global user.name "Numele Tau" 
+
+## Setarea numelui branch-ului principal
+git config --global init.defaultBranch "main"
 
 ## Initializare proiect de pe locat
 git init
 
 ## Descare de pe server -> inlocuire URL
 git clone https://github.com/username/projectname
+
+
